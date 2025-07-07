@@ -1,0 +1,49 @@
+.view-user-wrapper {
+  max-width: 600px;
+  margin: 60px auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.back-btn {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.user-details-card {
+  line-height: 2;
+  font-size: 18px;
+}
+
+.user-details-card p {
+  margin: 10px 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 6px;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 18px;
+}
+.user-details-card h2{
+  margin-top: 50px;
+  font-weight: bold;
+  color: black;
+}
+
+.user-details-card h1{
+  margin-top: 50px;
+  font-weight: bold;
+  font-size:400px ;
+  color: black;
+}

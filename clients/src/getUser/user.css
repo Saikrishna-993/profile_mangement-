@@ -1,0 +1,129 @@
+.userTable {
+  width: 90%; 
+  margin: 50px auto;
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+  overflow-x: auto;
+}
+
+.userTable table {
+  width: 100%;
+  margin-top: 30px;
+  table-layout: auto; 
+  border-collapse: collapse;
+}
+
+.userTable table thead th,
+.userTable table tbody td {
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;      
+  overflow: visible;        
+  text-overflow: unset;     
+  font-size: 16px;
+}
+
+
+.actionButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;                 
+  white-space: nowrap;      
+}
+
+.actionButtons button {
+  min-width: 40px;
+  padding: 6px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.userTable h2{
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+.noData{
+  margin-top: 20px;
+  text-align: center;
+}
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+}
+
+.pagination button {
+  padding: 8px 14px;
+  font-size: 16px;
+  background-color: #0b68ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 6px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  min-width: 250px;
+}
+
+.search-bar button {
+  padding: 6px 20px;
+  font-size: 16px;
+  background-color: #0b68ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #084fc4;
+}
+
+
+
+.eye-btn {
+  background: none;
+  border: none;
+  margin-left: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+

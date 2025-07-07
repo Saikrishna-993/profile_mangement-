@@ -1,0 +1,107 @@
+.add-user-wrapper {
+  max-width: 85%;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+.add-user-wrapper h2 {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+.addUserform {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 40px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup label {
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.inputGroup input,
+.inputGroup textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+
+}
+
+.inputGroup textarea {
+  resize: vertical;
+  min-height: 125px;
+  grid-column: span 2;
+
+}
+
+.button-row {
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.submit-btn {
+  grid-column: span 2;
+  margin: 20px auto 0;
+  padding: 10px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #0b68ff;
+  color: white;
+  width: 150px;
+  text-align: center;
+}
+.reset-btn {
+  rid-column: span 2;
+  margin: 20px auto 0;
+  padding: 10px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #0b68ff;
+  color: white;
+  width: 150px;
+  text-align: center;
+}
+
+.submit-btn {
+  background-color: #0b68ff;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #084fc4;
+}
+
+.reset-btn {
+  background-color: #6c757d;
+  color: white;
+}
+
+.reset-btn:hover {
+  background-color: #5a6268;
+}
+
+.inputGroup.fullWidth {
+  grid-column: span 2;
+}
+
+.inputGroup.fullWidth textarea {
+  width: 100%;
+}
