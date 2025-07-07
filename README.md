@@ -60,7 +60,7 @@ cd profile-management-system
 2. Start Backend
 cd server
 npm install
-# Create .env file
+Create .env file
 echo "MONGO_URI=mongodb://localhost:27017/React" > .env
 npm run dev
 
